@@ -1,8 +1,20 @@
-# React + Vite
+# Campers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To launch the project, you need to install the dependencies:
+  
+```bash
+  npm install
+```
 
-Currently, two official plugins are available:
+To start the project, you need to run the following command:
+  
+```bash
+  npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project will be available at:
+  
+```bash
+  http://localhost:5173/
+```
+
