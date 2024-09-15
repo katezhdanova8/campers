@@ -1,0 +1,61 @@
+.ImageModal {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  font-size: 0;
+  outline: none;
+  width: fit-content;
+  height: fit-content;
+}
+
+.ImageModal__button {
+  position: absolute;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: var(--main);
+  background-color: var(--white);
+}
+
+.ImageModal__button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.ImageModal__closeButton {
+  top: 16px;
+  right: 16px;
+}
+
+.ImageModal__buttonLeft,
+.ImageModal__buttonRight {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ImageModal__buttonLeft {
+  left: 16px
+}
+
+.ImageModal__buttonRight {
+  right: 16px;
+}
+
+.ImageModal__arrowButton {
+  position: absolute;
+}
+
+.ImageModal__overlay {
+  position: fixed;
+  inset: 0px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ImageModal__image {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}

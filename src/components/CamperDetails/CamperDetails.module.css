@@ -1,0 +1,19 @@
+.CamperDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.CamperDetails__infoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.CamperDetails__info {
+  margin-bottom: calc(16px - 8px);
+}
+
+.CamperDetails__description {
+  color: var(--text);
+}

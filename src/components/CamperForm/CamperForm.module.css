@@ -1,0 +1,39 @@
+.CamperForm {
+  padding: 44px 52px;
+  border: 1px solid var(--gray-light);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.CamperForm__header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.CamperForm__header p {
+  color: var(--gray);
+}
+
+.CamperForm__field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.CamperForm__fieldError {
+  color: var(--button);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .CamperForm {
+    padding: 32px 24px;
+  }
+}

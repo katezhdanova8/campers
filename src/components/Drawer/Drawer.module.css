@@ -1,0 +1,27 @@
+.Drawer {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--white);
+  z-index: 100;
+  right: 0;
+  top: 0;
+  transition: right 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0;
+  overflow: auto;
+}
+
+.Drawer__button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.Drawer__button svg {
+  width: 24px;
+  height: 24px;
+  color: var(--main);
+}

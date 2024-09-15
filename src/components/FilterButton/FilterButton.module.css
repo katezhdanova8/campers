@@ -1,0 +1,30 @@
+.FilterButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--gray-light);
+  color: var(--main);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 112px;
+  height: 96px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.FilterButton svg {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.FilterButton:hover,
+.FilterButton.active {
+  border-color: var(--button);
+}

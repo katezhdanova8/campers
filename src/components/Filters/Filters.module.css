@@ -1,0 +1,21 @@
+.Filters {
+  width: 360px;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.Filters__button {
+  align-self: self-end;
+}
+
+.Filters__button svg {
+  width: 32px;
+  height: 32px;
+  color: var(--main);
+}
+
+.Filters__title {
+  color: var(--text);
+}

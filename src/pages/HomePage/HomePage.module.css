@@ -1,0 +1,22 @@
+.HomePage {
+  width: 100%;
+  height: calc(100vh - 73px);
+  /* 73px is the height of the header */
+  background-position: center;
+  background-size: cover;
+}
+
+.HomePage__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 40px;
+}
+
+.HomePage__text {
+  color: var(--inputs);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

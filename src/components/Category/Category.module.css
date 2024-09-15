@@ -1,0 +1,25 @@
+.Category {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  background-color: #ebebeb;
+  border-radius: 100px;
+}
+
+.Category svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .Category {
+    padding: 8px 12px;
+  }
+
+  .Category svg {
+    width: 16px;
+    height: 16px;
+  }
+}

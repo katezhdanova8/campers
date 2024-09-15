@@ -1,0 +1,74 @@
+.Header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: var(--inputs);
+  border-bottom: 1px solid var(--badges);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  width: 100%;
+  padding: 24px 0;
+}
+
+.Header__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 32px;
+  position: relative;
+}
+
+.Header__logo {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Header__navLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main);
+}
+
+.Header__navLink.active,
+.Header__navLink:hover {
+  color: var(--button-hover);
+}
+
+.Header__menu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  overflow: hidden;
+}
+
+.Header__menuButton svg {
+  width: 24px;
+  height: 24px;
+  color: var(--main);
+}
+
+@media screen and (max-width: 768px) {
+  .Header {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .Header__content {
+    justify-content: flex-end;
+    gap: 0;
+  }
+
+  .Header__navLink {
+    font-size: 24px;
+  }
+}

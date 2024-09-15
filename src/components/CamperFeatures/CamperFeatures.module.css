@@ -1,0 +1,32 @@
+.CamperFeatures {
+  padding: 44px 52px;
+  border-radius: 10px;
+  background-color: var(--inputs);
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.CamperFeatures__details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.CamperFeatures__detailsOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.CamperFeatures__detailsOption {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .CamperFeatures {
+    padding: 32px 24px;
+    gap: 40px;
+  }
+}

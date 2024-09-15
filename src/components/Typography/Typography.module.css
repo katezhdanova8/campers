@@ -1,0 +1,35 @@
+.Typography {
+  margin: 0;
+}
+
+.Typography__body,
+.Typography__body2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Typography__body {
+  font-weight: 400;
+}
+
+.Typography__body2 {
+  font-weight: 500;
+}
+
+.Typography__h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.Typography__h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.Typography__h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}

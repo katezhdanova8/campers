@@ -1,0 +1,13 @@
+.CatalogPage {
+  padding: 48px 0;
+  display: flex;
+  gap: 64px;
+}
+
+@media screen and (max-width: 1366px) {
+  .CatalogPage {
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 0;
+  }
+}

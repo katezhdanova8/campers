@@ -1,0 +1,13 @@
+.FavouritesPage {
+  padding: 48px 0;
+  display: flex;
+  gap: 64px;
+}
+
+@media screen and (max-width: 1366px) {
+  .FavouritesPage {
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 0;
+  }
+}

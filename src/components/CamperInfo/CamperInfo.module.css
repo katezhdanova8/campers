@@ -1,0 +1,22 @@
+.CamperInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.CamperInfo__rating,
+.CamperInfo__location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.CamperInfo__rating svg,
+.CamperInfo__location svg {
+  width: 16px;
+  height: 16px;
+}
+
+.CamperInfo__rating svg {
+  color: var(--rating);
+}
